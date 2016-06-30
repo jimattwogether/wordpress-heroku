@@ -19,27 +19,22 @@
     },
     "CDN_CNAME_0": {
       "description": "The Amazon cloudfront CNAME",
-      "required": "false",
       "value": ""
     },
     "NEW_RELIC_APP_NAME": {
       "description": "The newrelic app name",
-      "required": "false",
       "value": ""
     },
     "NEW_RELIC_API_KEY": {
       "description": "The newrelic api key",
-      "required": "false",
       "value": ""
     },
     "NEW_RELIC_ID": {
       "description": "The newrelic ID",
-      "required": "false",
       "value": ""
     },
     "GOOGLE_PAGESPEED_API_KEY": {
       "description": "The google pagespeed API key",
-      "required": "false",
       "value": ""
     },
     "AUTH_KEY": {
