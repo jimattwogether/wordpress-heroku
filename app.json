@@ -21,22 +21,6 @@
       "description": "The Amazon cloudfront CNAME",
       "value": ""
     },
-    "NEW_RELIC_APP_NAME": {
-      "description": "The newrelic app name",
-      "value": ""
-    },
-    "NEW_RELIC_API_KEY": {
-      "description": "The newrelic api key",
-      "value": ""
-    },
-    "NEW_RELIC_ID": {
-      "description": "The newrelic ID",
-      "value": ""
-    },
-    "GOOGLE_PAGESPEED_API_KEY": {
-      "description": "The google pagespeed API key",
-      "value": ""
-    },
     "AUTH_KEY": {
       "description": "One of the wordpress secrets",
       "generator": "secret"
@@ -73,9 +57,6 @@
   "image": "heroku/php",
   "addons": [
     "cleardb",
-    "memcachier",
-    "newrelic",
-    "papertrail",
-    "sendgrid"
+    "memcachier"
   ]
 }
