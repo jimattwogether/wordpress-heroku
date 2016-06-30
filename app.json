@@ -19,6 +19,7 @@
     },
     "CDN_CNAME_0": {
       "description": "The Amazon cloudfront CNAME",
+      "required":"false",
       "value": ""
     },
     "AUTH_KEY": {
