@@ -39,11 +39,11 @@ define('DB_COLLATE', '');
 /**
  * WordPress SMTP server
  */
-define('WP_SMTP_HOST',       'smtp.sendgrid.net');
-define('WP_SMTP_PORT',       25);                   // obligatory - default: 25
-define('WP_SMTP_ENCRYPTION', 'tls');                // obligatory: 'tls' or 'ssl' - default: no encryption
-define('WP_SMTP_USER',       getenv('SENDGRID_USERNAME'));           // obligatory - default: no user
-define('WP_SMTP_PASSWORD',   getenv('SENDGRID_PASSWORD'));           // obligatory - default: no password
+// define('WP_SMTP_HOST',       'smtp.sendgrid.net');
+// define('WP_SMTP_PORT',       25);                   // obligatory - default: 25
+// define('WP_SMTP_ENCRYPTION', 'tls');                // obligatory: 'tls' or 'ssl' - default: no encryption
+// define('WP_SMTP_USER',       getenv('SENDGRID_USERNAME'));           // obligatory - default: no user
+// define('WP_SMTP_PASSWORD',   getenv('SENDGRID_PASSWORD'));           // obligatory - default: no password
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -90,7 +90,7 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
