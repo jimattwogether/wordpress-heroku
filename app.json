@@ -57,6 +57,6 @@
   },
   "image": "heroku/php",
   "addons": [
-    "cleardb"
+    "cleardb:ignite"
   ]
 }
